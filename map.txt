@@ -1,0 +1,11 @@
+CSS STYLE 
+
+- navigation bar : sections/header.scss
+
+
+HTML CODE 
+
+- navigation bar : components/navigation/NavSection.tsx
+
+- To na samej g¨®rze, nad navbar linki itd... : components/header/HeaderSection6.tsx
+
