@@ -1,7 +1,6 @@
 import {
   Inter,
   Mulish,
-  Newsreader,
   Oldenburg,
   Philosopher,
   Sahitya,
@@ -21,12 +20,6 @@ export const mulish = Mulish({
   variable: "--mulish",
 });
 
-export const newsreader = Newsreader({
-  weight: ["400", "500", "600", "700", "800"],
-  subsets: ["latin"],
-  display: "swap",
-  variable: "--newsreader",
-});
 
 export const sahitya = Sahitya({
   weight: ["400", "700"],

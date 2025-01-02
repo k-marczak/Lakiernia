@@ -9,7 +9,6 @@ import Cursor from "@/components/utils/Cursor";
 import {
   inter,
   mulish,
-  newsreader,
   oldenburg,
   philosopher,
   sahitya,
@@ -24,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} ${mulish.variable} ${newsreader.variable} ${sahitya.variable} ${philosopher.variable} ${oldenburg.variable}`}
+        className={`${inter.variable} ${mulish.variable} ${sahitya.variable} ${philosopher.variable} ${oldenburg.variable}`}
       >
         <Providers>
           <Cursor />
