@@ -9,6 +9,16 @@ export const metadata: Metadata = {
   title: "Revel Service Details Page",
   description: "Developed by Azizur Rahman",
 };
+
+
+
+export async function generateStaticParams() {
+  return serviceData2.map((item) => ({
+    slug: item.slug,
+  }));
+}
+
+
 export default function Home({ params }: { params: { slug: string } }) {
   const serviceInfo = serviceData2.find((item) => item.slug === params.slug);
   return (
